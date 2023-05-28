@@ -1,0 +1,111 @@
+.calculator{
+  width:400px;
+  height:640px;
+  background:#2A3437;
+  margin:auto;
+  margin-top:300px;
+  border-radius:20px;
+}
+
+.calculate{
+  width:400px;
+  height:400px;
+  margin:auto;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+  .display{
+    width:300px;
+    height:150px;
+  margin-top:200px;
+  
+  }
+  
+  .display h2{
+    text-align: center;
+    font-size: 30px;
+    color:white;
+    margin-top:40px;
+  }
+.display input{
+  width:100%;
+  height:80px;
+  border-radius:10px;
+  font-size:30px;
+  background:whitesmoke;
+}
+
+
+.button-part{
+  margin-top:20px;
+  width:300px;
+  height:auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.rows{
+  margin-top:30px;
+}
+.rows button{
+  padding:20px;
+  border-radius: 50%;
+  margin-left:10px;
+  font-size:20px;
+  font-weight:550;
+  border:0px;
+  outline:0px;
+}
+
+
+.rows button:active{
+  background:whitesmoke;
+}
+.equal{
+  background:#FF9C4B;
+  font-weight:600;
+}
+
+.operator{
+  color:#FF9C4B;
+  font-weight:700;
+}
+
+.love p{
+  margin-top:40px;
+  color:white;
+  font-size:20px;
+}
+.para p{
+  margin-top:40px;
+  color:black;
+  margin-top:50px;
+  text-align: center;
+  line-height:40px;
+  font-weight:550;
+  letter-spacing: 2px;
+  font-size:30px;
+}
+
+@media only screen and (max-width:400px){
+  .calculator{
+    width:330px;
+    height:600px;
+    margin-top:10px;
+  }
+  .calculate{
+    width:320px;
+  }
+  
+  .para p{
+    font-size:17px;
+    line-height:27px;
+    word-spacing: 0px;
+    font-weight:400;
+    margin-top: 30px;
+  }
+}
