@@ -6,7 +6,11 @@
   margin-top:300px;
   border-radius:20px;
 }
-
+#delete{
+  padding:7px 10px;
+  color:white;
+  background:royalblue;
+}
 .calculate{
   width:400px;
   height:400px;
